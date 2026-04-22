@@ -1,0 +1,20 @@
+[0;1;32m●[0m ollama.service - Ollama Service
+     Loaded: loaded (/etc/systemd/system/ollama.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Mon 2026-03-02 20:15:23 CET; 6 days ago
+   Main PID: 3481628 (ollama)
+      Tasks: 21 (limit: 38346)
+     Memory: 3.0G
+        CPU: 2h 54min 50.344s
+     CGroup: /system.slice/ollama.service
+             └─3481628 /usr/local/bin/ollama serve
+
+mars 09 16:04:02 999 ollama[3481628]: [GIN] 2026/03/09 - 16:04:02 | 200 |  222.438333ms |       127.0.0.1 | POST     "/api/show"
+mars 09 16:04:02 999 ollama[3481628]: [GIN] 2026/03/09 - 16:04:02 | 404 |        4.26µs |       127.0.0.1 | POST     "/api/generate/api/show"
+mars 09 16:04:02 999 ollama[3481628]: [GIN] 2026/03/09 - 16:04:02 | 200 |  227.237572ms |       127.0.0.1 | POST     "/api/show"
+mars 09 16:04:03 999 ollama[3481628]: [GIN] 2026/03/09 - 16:04:03 | 200 |   134.26783ms |       127.0.0.1 | POST     "/api/show"
+mars 09 16:10:02 999 ollama[3481628]: [GIN] 2026/03/09 - 16:10:02 | 200 |         5m59s |       127.0.0.1 | POST     "/api/generate"
+mars 09 16:10:02 999 ollama[3481628]: [GIN] 2026/03/09 - 16:10:02 | 200 |  150.777141ms |       127.0.0.1 | POST     "/api/show"
+mars 09 16:10:02 999 ollama[3481628]: time=2026-03-09T16:10:02.830+01:00 level=WARN source=runner.go:153 msg="truncating input prompt" limit=4096 prompt=4195 keep=4 new=4096
+mars 09 16:20:02 999 ollama[3481628]: [GIN] 2026/03/09 - 16:20:02 | 500 |         10m0s |       127.0.0.1 | POST     "/api/generate"
+mars 09 16:23:38 999 ollama[3481628]: [GIN] 2026/03/09 - 16:23:38 | 200 |    2.511915ms |       127.0.0.1 | GET      "/api/tags"
+mars 09 16:23:38 999 ollama[3481628]: [GIN] 2026/03/09 - 16:23:38 | 200 |  375.199682ms |       127.0.0.1 | POST     "/api/show"
