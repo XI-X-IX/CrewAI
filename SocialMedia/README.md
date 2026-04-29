@@ -1,4 +1,4 @@
-# 🤖 Crew 1 — Usine à Contenu
+#  Crew 1 — Usine à Contenu
 > CrewAI + Ollama | 100% local | 100% gratuit
 
 ---
@@ -48,11 +48,11 @@ LANGUE       = "français"
 ## Résultat généré
 
 Le crew crée automatiquement un fichier `.txt` avec :
-- ✅ Article de blog complet (800-1200 mots)
-- ✅ Post Instagram avec hashtags
-- ✅ Post LinkedIn professionnel
-- ✅ Thread Twitter/X (3 tweets)
-- ✅ Rapport SEO complet (titre, méta, mots-clés...)
+-  Article de blog complet (800-1200 mots)
+-  Post Instagram avec hashtags
+-  Post LinkedIn professionnel
+-  Thread Twitter/X (3 tweets)
+-  Rapport SEO complet (titre, méta, mots-clés...)
 
 ---
 
@@ -60,10 +60,10 @@ Le crew crée automatiquement un fichier `.txt` avec :
 
 | Agent | Rôle |
 |---|---|
-| 🔍 Chercheur | Analyse le sujet et trouve les angles |
-| ✍️ Rédacteur | Écrit l'article de blog structuré |
-| 📱 Social Media | Adapte pour Instagram, LinkedIn, Twitter |
-| 🎯 SEO Expert | Optimise pour Google |
+|  Chercheur | Analyse le sujet et trouve les angles |
+|  Rédacteur | Écrit l'article de blog structuré |
+|  Social Media | Adapte pour Instagram, LinkedIn, Twitter |
+|  SEO Expert | Optimise pour Google |
 
 ---
 
@@ -74,7 +74,7 @@ Le crew crée automatiquement un fichier `.txt` avec :
 
 ---
 
-## 🔧 Dépannage
+##  Dépannage
 
 **Erreur "Connection refused"** → Ollama n'est pas lancé
 ```bash

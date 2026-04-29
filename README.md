@@ -2,7 +2,7 @@
 
 ![CrewAI](./crewia-banner.png)
 
-# 🤖 CrewAI Agents — Équipes d'IA 100 % locales
+# CrewAI Agents — Équipes d'IA 100 % locales
 
 ### *3 crews d'agents spécialisés qui collaborent pour résoudre des tâches concrètes — contenu, e-commerce, détection de produits winners. Aucune donnée ne sort de la machine.*
 
@@ -16,34 +16,34 @@
 
 ---
 
-## 🎯 Aperçu
+## Aperçu
 
 Trois **équipes d'agents IA** (*crews*) bâties avec **[CrewAI](https://docs.crewai.com/)** + **[Ollama](https://ollama.com/)** — chaque crew orchestre **4 agents** aux rôles complémentaires qui se passent le relais pour produire un livrable exploitable.
 
-> 💰 **100 % local, 100 % gratuit.** Aucune clé API OpenAI / Anthropic requise. Les modèles tournent sur votre machine (Mistral 7B recommandé).
+> **100 % local, 100 % gratuit.** Aucune clé API OpenAI / Anthropic requise. Les modèles tournent sur votre machine (Mistral 7B recommandé).
 
 ---
 
-## 🎬 Démo
+## Démonstration
 
 <!-- TODO: ajouter un GIF d'une exécution + capture des 4 agents en train de collaborer -->
 
 **Exemple de sortie — Crew 1 (Usine à Contenu) :**
 
 ```
-✓ Agent Chercheur   → analyse du sujet, 3 angles trouvés
-✓ Agent Rédacteur   → article 1 050 mots généré
-✓ Agent Social      → post IG (120 mots) + post LI + thread X (3 tweets)
-✓ Agent SEO         → titre, méta, 12 mots-clés, structure H1/H2/H3
+OK Agent Chercheur   → analyse du sujet, 3 angles trouvés
+OK Agent Rédacteur   → article 1 050 mots généré
+OK Agent Social      → post IG (120 mots) + post LI + thread X (3 tweets)
+OK Agent SEO         → titre, méta, 12 mots-clés, structure H1/H2/H3
 
 → contenu_20260415_1422.txt  (tout le livrable en un fichier)
 ```
 
 ---
 
-## 🧑‍🤝‍🧑 Les 3 crews
+## Les 3 crews
 
-### 1️⃣ SocialMedia — Usine à contenu
+### 1 SocialMedia — Usine à contenu
 
 > *Un sujet, un public cible → article de blog + posts IG / LinkedIn / Twitter + rapport SEO.*
 
@@ -51,14 +51,14 @@ Trois **équipes d'agents IA** (*crews*) bâties avec **[CrewAI](https://docs.cr
 
 | Agent | Rôle |
 |-------|------|
-| 🔍 Chercheur | Analyse le sujet, trouve les angles |
-| ✍️ Rédacteur | Rédige l'article de blog structuré |
-| 📱 Social Media | Adapte pour IG / LI / Twitter |
-| 🎯 SEO Expert | Optimise pour Google |
+| Chercheur | Analyse le sujet, trouve les angles |
+| Rédacteur | Rédige l'article de blog structuré |
+| Social Media | Adapte pour IG / LI / Twitter |
+| SEO Expert | Optimise pour Google |
 
 ---
 
-### 2️⃣ E-commerce / ProductAssistant — Assistant fiches produits
+### 2 E-commerce / ProductAssistant — Assistant fiches produits
 
 > *Une fiche produit + avis clients → fiche réécrite + stratégie prix + réponses aux avis.*
 
@@ -66,14 +66,14 @@ Trois **équipes d'agents IA** (*crews*) bâties avec **[CrewAI](https://docs.cr
 
 | Agent | Rôle |
 |-------|------|
-| 🔍 Analyste Produit | Évalue & score la fiche actuelle |
-| ✍️ Rédacteur Produit | Réécrit pour convertir |
-| 💰 Gestionnaire Prix | Bundles, promos, stratégie |
-| ⭐ Gestionnaire Avis | Réponses clients pros |
+| Analyste Produit | Évalue & score la fiche actuelle |
+| Rédacteur Produit | Réécrit pour convertir |
+| Gestionnaire Prix | Bundles, promos, stratégie |
+| Gestionnaire Avis | Réponses clients pros |
 
 ---
 
-### 3️⃣ E-commerce / WinnerFinder — Détecteur de produits winners
+### 3 E-commerce / WinnerFinder — Détecteur de produits winners
 
 > *Une niche, un budget → 5 produits tendance + TOP 3 + plan sourcing + plan de lancement 30 jours.*
 
@@ -81,16 +81,16 @@ Trois **équipes d'agents IA** (*crews*) bâties avec **[CrewAI](https://docs.cr
 
 | Agent | Rôle |
 |-------|------|
-| 🔍 Chasseur de Tendances | Détecte les produits qui montent |
-| 📊 Analyste de Marché | Score et classe |
-| 🏭 Expert Sourcing | Fournisseurs + calcul de marges |
-| 🚀 Stratège Lancement | Plan marketing 30 jours |
+| Chasseur de Tendances | Détecte les produits qui montent |
+| Analyste de Marché | Score et classe |
+| Expert Sourcing | Fournisseurs + calcul de marges |
+| Stratège Lancement | Plan marketing 30 jours |
 
-> 🌐 **Option recherche web réelle** : brancher une clé [Serper](https://serper.dev) (2 500 recherches/mois gratuites) pour passer de "connaissance du modèle" à "données Google en temps réel".
+> **Option recherche web réelle** : brancher une clé [Serper](https://serper.dev) (2 500 recherches/mois gratuites) pour passer de "connaissance du modèle" à "données Google en temps réel".
 
 ---
 
-## 🚀 Installation (une seule fois)
+## Installation (une seule fois)
 
 ```bash
 # 1. Installer Ollama
@@ -107,7 +107,7 @@ pip install crewai crewai-tools langchain-community requests beautifulsoup4
 
 ---
 
-## 🎬 Lancer un crew
+## Lancer un crew
 
 ```bash
 # Crew 1 — Usine à Contenu
@@ -128,7 +128,7 @@ Chaque script produit un fichier `.txt` horodaté avec l'intégralité du livrab
 
 ---
 
-## 📂 Structure
+## Structure
 
 ```
 CrewAI/
@@ -146,7 +146,7 @@ CrewAI/
 
 ---
 
-## 🧩 Architecture d'un crew
+## Architecture d'un crew
 
 Un crew CrewAI = **4 éléments** :
 
@@ -163,7 +163,7 @@ Dans tous les crews ici, le mode est **séquentiel** : chaque agent enrichit le 
 
 ---
 
-## ⚙️ Performances (iMac 2013, 32 GB RAM)
+## Performances (iMac 2013, 32 GB RAM)
 
 | Crew | Temps moyen | Modèle |
 |------|-------------|--------|
@@ -174,7 +174,7 @@ Dans tous les crews ici, le mode est **séquentiel** : chaque agent enrichit le 
 
 ---
 
-## 🔧 Dépannage
+## Dépannage
 
 **`Connection refused`** → Ollama n'est pas lancé
 
@@ -192,7 +192,7 @@ ollama pull mistral
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] **Crew 4** — Analyste CV / matching d'offres d'emploi (en lien avec [intern-bot](https://github.com/XI-X-IX/intern-bot))
 - [ ] Passer l'orchestration en **mode hiérarchique** (un agent manager qui supervise)
@@ -204,7 +204,7 @@ ollama pull mistral
 
 ---
 
-## 🎓 Ce que j'ai appris
+## Ce que j'ai appris
 
 - **Orchestration multi-agent** — découper un problème complexe en sous-tâches atomiques assignées à des rôles spécialisés
 - **Prompt engineering structuré** — `role` + `goal` + `backstory` + `expected_output` donnent des résultats 10× plus fiables qu'un prompt libre
@@ -215,7 +215,7 @@ ollama pull mistral
 
 ---
 
-## 📜 Licence
+## Licence
 
 <!-- TODO: MIT — voir [`LICENSE`](./LICENSE) *(à ajouter)* -->
 

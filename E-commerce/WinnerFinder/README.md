@@ -1,9 +1,9 @@
-# 🏆 Crew 3 — Product Winner Finder
+#  Crew 3 — Product Winner Finder
 > Trouve les produits e-commerce tendance | CrewAI + Ollama
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 pip install crewai crewai-tools langchain-community requests beautifulsoup4
@@ -12,7 +12,7 @@ ollama pull mistral
 
 ---
 
-## 🔑 Activer la recherche web RÉELLE (recommandé)
+##  Activer la recherche web RÉELLE (recommandé)
 
 Sans clé API, le crew analyse depuis sa connaissance du marché.
 **Avec Serper**, il fait de vraies recherches Google en temps réel.
@@ -29,7 +29,7 @@ python crew3_winner_finder.py
 
 ---
 
-## 🚀 Utilisation
+##  Utilisation
 
 ```bash
 python crew3_winner_finder.py
@@ -37,7 +37,7 @@ python crew3_winner_finder.py
 
 ---
 
-## ✏️ Personnaliser
+##  Personnaliser
 
 Modifiez ces 3 lignes dans le fichier :
 
@@ -64,15 +64,15 @@ PLATEFORME = "Shopify + TikTok Shop"
 
 ---
 
-## 📁 Ce que vous obtenez
+##  Ce que vous obtenez
 
-✅ **5 produits winners potentiels** détectés sur le marché actuel  
-✅ **Analyse de viabilité** avec score /10 pour chaque produit  
-✅ **TOP 3 classé** avec justification détaillée  
-✅ **Plan de sourcing complet** pour le produit #1 :
+ **5 produits winners potentiels** détectés sur le marché actuel  
+ **Analyse de viabilité** avec score /10 pour chaque produit  
+ **TOP 3 classé** avec justification détaillée  
+ **Plan de sourcing complet** pour le produit #1 :
    - 3 fournisseurs recommandés
    - Calcul de marge réelle (coût → prix vente → bénéfice)  
-✅ **Stratégie de lancement sur 30 jours** :
+ **Stratégie de lancement sur 30 jours** :
    - Scripts TikTok/Reels
    - Stratégie pub Facebook/TikTok Ads
    - Plan d'action semaine par semaine
@@ -80,18 +80,18 @@ PLATEFORME = "Shopify + TikTok Shop"
 
 ---
 
-## ⚙️ Les 4 agents
+##  Les 4 agents
 
 | Agent | Rôle |
 |---|---|
-| 🔍 Chasseur de Tendances | Détecte les produits qui montent |
-| 📊 Analyste de Marché | Score et classe les produits |
-| 🏭 Expert Sourcing | Trouve fournisseurs + calcule les marges |
-| 🚀 Stratège Lancement | Plan marketing 30 jours |
+|  Chasseur de Tendances | Détecte les produits qui montent |
+|  Analyste de Marché | Score et classe les produits |
+|  Expert Sourcing | Trouve fournisseurs + calcule les marges |
+|  Stratège Lancement | Plan marketing 30 jours |
 
 ---
 
-## 💡 Astuce — Relancer régulièrement
+##  Astuce — Relancer régulièrement
 
 Les tendances changent vite ! Relancez ce crew :
 - **1x par semaine** pour rester à jour
@@ -99,7 +99,7 @@ Les tendances changent vite ! Relancez ce crew :
 
 ---
 
-## ⏱️ Temps estimé
+## ⏱ Temps estimé
 
 - Sans Serper : ~10 minutes
 - Avec Serper (recherche web réelle) : ~15-20 minutes
